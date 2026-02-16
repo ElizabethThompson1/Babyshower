@@ -3,10 +3,6 @@
     {
       "source": "/",
       "destination": "/Babyshower/Babyshower/invatation.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/Babyshower/Babyshower/$1"
     }
   ]
 }
