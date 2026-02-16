@@ -1,9 +1,0 @@
-[build]
-  publish = "Babyshower/Babyshower"
-  command = "echo 'No build needed'"
-
-[[redirects]]
-  from = "/*"
-  to = "/invatation.html"
-  status = 200
-

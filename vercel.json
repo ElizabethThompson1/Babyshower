@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/Babyshower/Babyshower/invatation.html"
+      "destination": "/invitation.html"
     }
   ]
 }

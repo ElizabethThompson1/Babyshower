@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Digital baby shower invitation",
   "scripts": {
-    "start": "npx http-server Babyshower/Babyshower -p 8000 -o invatation.html -c-1"
+    "start": "npx http-server . -p 8000 -o invitation.html -c-1"
   },
   "keywords": [
     "invitation",
