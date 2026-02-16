@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Babyshower/Babyshower/invatation.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/Babyshower/Babyshower/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/Babyshower/Babyshower/invatation.html"
+    }
+  ]
+}
+

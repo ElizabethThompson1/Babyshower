@@ -418,7 +418,7 @@
             setTimeout(function () { ra(); run = false; var f = document.getElementById('flap'); f.style.zIndex = ''; f.style.transition = 'transform .7s ease'; f.style.transform = 'rotateX(0deg)'; var c = document.getElementById('card-slide'); c.classList.remove('risen'); setTimeout(function () { c.classList.remove('show') }, 900); document.querySelector('.hint').style.opacity = '1' }, 560);
         }
         function sp() {
-            var ic = ['✨', '⭐', '🌟', '💛', '🍼', '🌸', '🎀', '🌿', '💫'];
+            var ic = ['✨', '🌟', '💛', '🍼', '🌸', '🎀', '🌿', '💫'];
             for (var i = 0; i < 18; i++) { (function (x) { setTimeout(function () { var e = document.createElement('div'); e.className = 'sp'; e.innerHTML = ic[Math.floor(Math.random() * ic.length)]; e.style.left = (5 + Math.random() * 90) + 'vw'; e.style.top = (15 + Math.random() * 65) + 'vh'; e.style.animationDelay = (Math.random() * .4) + 's'; document.body.appendChild(e); setTimeout(function () { e.remove() }, 3500) }, x * 65) })(i) }
         }
     </script>
