@@ -1,0 +1,15 @@
+{
+  "name": "baby-shower-invitation",
+  "version": "1.0.0",
+  "description": "Digital baby shower invitation",
+  "scripts": {
+    "start": "npx http-server . -p 8000 -o -c-1"
+  },
+  "keywords": [
+    "invitation",
+    "baby-shower"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
